@@ -1,43 +1,43 @@
-# Sprite Animation with Movement Demo
+# Demo de Animação de Sprite com Movimento
 
-A simple PyGame demonstration featuring a sprite animation with keyboard-controlled movement and collision detection.
+Uma demonstração simples em PyGame apresentando uma animação de sprite com movimento controlado por teclado e detecção de colisão.
 
-## Prerequisites
+## Pré-requisitos
 
 - Python 3.x
-- PyGame library
+- Biblioteca PyGame
 
-## Installation
+## Instalação
 
-1. Install PyGame if you haven't already:
+1. Instale o PyGame se ainda não tiver instalado:
 ```bash
 pip install pygame
 ```
 
-2. Make sure you have the required sprite sheet:
-   - File named `Attack.png` in the same directory as the script
-   - The sprite sheet should contain 8 frames of animation
+2. Certifique-se de ter a folha de sprites necessária:
+   - Arquivo chamado `Attack.png` no mesmo diretório do script
+   - A folha de sprites deve conter 8 quadros de animação
 
-## Running the Program
+## Executando o Programa
 
-Execute the script using Python:
+Execute o script usando Python:
 ```bash
 python janelaComSpriteMovimentacaoXY.py
 ```
 
-## Controls
+## Controles
 
-- **Arrow Keys**: Move the sprite
-  - ↑ (Up Arrow): Move up
-  - ↓ (Down Arrow): Move down
-  - ← (Left Arrow): Move left
-  - → (Right Arrow): Move right
-- **Exit**: Click the "Sair" button or close the window
+- **Teclas de Seta**: Movimentam o sprite
+  - ↑ (Seta para Cima): Move para cima
+  - ↓ (Seta para Baixo): Move para baixo
+  - ← (Seta para Esquerda): Move para esquerda
+  - → (Seta para Direita): Move para direita
+- **Sair**: Clique no botão "Sair" ou feche a janela
 
-## Features
+## Funcionalidades
 
-- Animated sprite with 8 frames
-- Smooth movement in all directions
-- Collision detection with screen boundaries
-- Collision detection with center button
-- 1000x500 pixel window
+- Sprite animado com 8 quadros
+- Movimento suave em todas as direções
+- Detecção de colisão com as bordas da tela
+- Detecção de colisão com o botão central
+- Janela de 1000x500 pixels
